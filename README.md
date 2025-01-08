@@ -86,47 +86,6 @@ MIT
 - GitHub: [@berkaykaradeniz](https://github.com/berkaykaradeniz)
 - LinkedIn: [Berkay Karadeniz](https://www.linkedin.com/in/berkay-karadeniz-60126b12b/)
 
-## Paketi Yayınlama
-
-1. GitHub'da yeni bir repository oluşturun: `laravel-db-scheduler`
-2. Composer.json dosyanızı hazırlayın:
-```json
-{
-    "name": "berkaykaradeniz/laravel-db-scheduler",
-    "description": "Laravel için veritabanı tabanlı iş zamanlayıcı paketi",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Berkay Karadeniz",
-            "email": "your-email@example.com"
-        }
-    ],
-    "require": {
-        "php": "^8.0",
-        "laravel/framework": "^9.0|^10.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "BerkayKaradeniz\\LaravelDbScheduler\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "BerkayKaradeniz\\LaravelDbScheduler\\SchedulerServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
-}
-```
-
-3. [Packagist](https://packagist.org)'e kaydolun
-4. GitHub repository'nizi Packagist'e bağlayın
-5. GitHub'da bir release oluşturun (örn: v1.0.0)
-
 ## Katkıda Bulunma
 
 1. Fork edin
